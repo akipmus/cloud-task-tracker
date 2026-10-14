@@ -1,0 +1,27 @@
+/* Styles the whole page */
+body {
+  font-family: Arial, sans-serif; /* Chooses the text style */
+  margin: 0; /* Removes the browser's default outer spacing */
+  padding: 32px; /* Adds space around the page content */
+  background-color: #f4f7fb; /* Sets a light background color */
+  color: #1f2937; /* Sets the main text color */
+}
+
+/* Styles the main content area like a card */
+main {
+  max-width: 700px; /* Keeps the card from getting too wide */
+  margin: 40px auto; /* Adds top space and centers the card */
+  padding: 32px; /* Adds space inside the card */
+  background-color: white; /* Gives the card a white background */
+  border-radius: 12px; /* Rounds the card's corners */
+}
+
+/* Changes the main heading's color */
+h1 {
+  color: #1356a2;
+}
+
+/* Adds space between items in the list */
+li {
+  margin-bottom: 8px;
+}
